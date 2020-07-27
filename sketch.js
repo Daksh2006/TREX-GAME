@@ -94,7 +94,7 @@ function draw() {
     if(ObstaclesGroup.isTouching(trex)){
       gameState = END;
     }
-  
+  //hi
   } else if(gameState === END) {
     gameOver.visible = true;
     restart.visible = true;
